@@ -46,3 +46,10 @@
   275  cd ..
   276  ls
   277  history
+  278  git status
+  279  git add .
+  280  git commit -m "commit 04 de MaximilianoSoriano"
+  281 git push origin main
+  282 git add .
+  283  git commit -m "commit 05 de MaximilianoSoriano"
+  284 git push origin main
