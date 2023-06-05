@@ -1,0 +1,48 @@
+  230  git init
+  231  mkdir 20230605-MaximilianoSoriano
+  232  cd 20230605-MaximilianoSoriano/
+  233  cd ..
+  234  git branch -M main
+  235  git remote add origin https://github.com/MaxiSoriano70/20230605-MaximilianoSoriano.git
+  236  cd 20230605-MaximilianoSoriano/
+  237  touch comandos.txt main.js index.html
+  238  git add .
+  239  git commit -m "commit 01 de Maximiliano Soriano"
+  240  git push origin main
+  241  cd ..
+  242  ls
+  243  git branch feature01
+  244  git checkout feature01
+  245  git branch
+  246  mkdir Terminal Hardware
+  247  touch resumen.txt Terminal/
+  248  rm resumen.txt
+  249  cd Terminal/
+  250  touch resumen.txt
+  251  cd ..
+  252  cd Hardware/
+  253  touch resumen.txt
+  254  cd ..
+  255  ls
+  256  git add .
+  257  git commit -m "commit 02 de MaximilianoSoriano"
+  258  git push origin feature01
+  259  ls
+  260  git branch feature02
+  261  git checkout feature02
+  262  git branch
+  263  git init .
+  264  git commit -m "commit 03 de MaximilianoSoriano"
+  265  pwd
+  266  git add .
+  267  git commit -m "commit 03 de MaximilianoSoriano"
+  268  git push origin feature02
+  269  git checkout main
+  270  ls
+  271  cd 20230605-MaximilianoSoriano/
+  272  ls
+  273  mv comandos.txt comandosUtilizados.txt
+  274  ls
+  275  cd ..
+  276  ls
+  277  history
