@@ -1,0 +1,5 @@
+1. cd "nombre de la carpeta"
+2. mkdir "nombre de la carpeta"
+3. touch "nombre del archivo"
+4. rm "nombre del archivo"
+5. ls
